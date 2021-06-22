@@ -24,7 +24,7 @@ public class StudentController {
 		// 자료 저장
 		model.addAttribute("list", list);
 		
-		return "list"; //   list.jsp로 출력
+		return "list";	// list.jsp로 출력
 	}
 	
 }
