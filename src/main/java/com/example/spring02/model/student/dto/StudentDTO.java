@@ -1,4 +1,4 @@
-package com.example.student;
+package com.example.spring02.model.student.dto;
 
 public class StudentDTO {
 	private String student_no;

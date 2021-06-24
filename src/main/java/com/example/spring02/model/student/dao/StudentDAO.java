@@ -1,4 +1,4 @@
-package com.example.student;
+package com.example.spring02.model.student.dao;
 
 import java.util.List;
 
@@ -6,6 +6,8 @@ import javax.inject.Inject;
 
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
+
+import com.example.spring02.model.student.dto.StudentDTO;
 
 @Repository
 public class StudentDAO {
