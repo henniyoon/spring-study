@@ -19,7 +19,7 @@ public class MemoController {
 	MemoService memoService;
 	
 	// 메모 삭제
-	@RequestMapping("delet/(idx)")
+	@RequestMapping("delete/{idx}")
 	public String delete(@PathVariable int idx) {
 		memoService.delete(idx);	// 레코드 삭제
 		return "redirect:/memo/list.do";	// 리스트로 이동
