@@ -78,7 +78,7 @@ public class CartController {
 			map.put("sum", sumMoney + fee);
 			map.put("list", list);	// 장바구니 목록
 			map.put("count", list.size());	// 레코드 개수
-			mav.setViewName("shop/cart)list");	// 뷰의 이름
+			mav.setViewName("shop/cart_list");	// 뷰의 이름
 			mav.addObject("map", map);	// 뷰에 전달할 테이터
 			return mav;	// cart_list.jsp로 포워딩
 		} else {
